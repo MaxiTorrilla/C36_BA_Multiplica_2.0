@@ -9,27 +9,39 @@
 </head>
 <body class="fondo">
 
-    <header>
-        <h1 class="encabezado">Bienvenidos a mi página web</h1>
+    <header id="inicio">
+        <div class="contenedor_logo">
+            <img class="logo" src="./images/mi_logo.jpg" alt="Foto de logo">
+            <span class="cuentanos_algo">Cuentanos algo</span>
+        </div>
+        <nav class="navbar">
+            <ul class="links_navegacion">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Quien soy</a></li>
+                <li><a href="#">Contactarme</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section id="contenido">
-            <div id="contebedor">
-                <br>
-                <h3 class="subtitulo">  Bienbenid@s a mi mini bio, te contare un poco sobre mi.</h3>
-                <br>
-                <img class= "Foto_1" src="./images/perfil.jpg" alt="Foto de pefil">
-                <p class="bio">   Hola a tod@s, me presento, soy Maximiliano Torrilla, tengo 31 años, me encuentro viviendo en la provincia de Bs As, me gusta mucho los animales, programar en varios lenguajes de programación y todo lo que tenga que ver con el mundo de la informática, actualmente soy estudiante de cuarto año en la UNLa en la carrera de Licenciatura en Sistemas de Información, también estoy cursando en paralelo el curso BA Multiplica 2.0 </p>
+        <section id="contenedor">
+            <div class="titular">
+                <h1 class="encabezado">Bienvenidos a mi página web</h1>
+            </div>
+            <h3 class="subtitulo">Bienbenid@s a mi mini bio, te contare un poco sobre mi.</h3>
+            <div class="foto_y_descripcion">
+                <img class= "foto_1" src="./images/perfil.jpg" alt="Foto de pefil">
+                <div class="contenedor_bio">
+                    <p class="texto">Hola a tod@s, me presento, soy Maximiliano Torrilla, tengo 31 años, me encuentro viviendo en la provincia de Bs As, me gusta mucho los animales, programar en varios lenguajes de programación y todo lo que tenga que ver con el mundo de la informática, actualmente soy estudiante de cuarto año en la UNLa en la carrera de Licenciatura en Sistemas de Información, también estoy cursando en paralelo el curso BA Multiplica 2.0 </p>
+                </div>
             </div>
         </section>
     </main>
-    
-    <article>
-    </article>
 
     <footer>
-        <ul>
+        <ul id="pie_de_pag">
             <li><a href="#">Contactarme</a></li>
+            <li><a href="#"><img class="boton_arriba" src="./images/892550.jpg" alt="flecha subir"></a></li>
         </ul>
     </footer>
 
